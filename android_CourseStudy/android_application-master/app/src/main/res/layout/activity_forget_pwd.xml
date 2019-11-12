@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".activity.Forget_pwd_Activity">
+
+    <include layout="@layout/tool_bar"/>
+    <TextView
+        android:id="@+id/your_username"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="你的用户名是:"
+        android:layout_marginBottom="8sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#8a8a8a"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/input_your_username"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:hint="请输入你的用户名"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/see_user_small"
+        android:drawablePadding="8dp"
+        android:background="@drawable/border_text"
+        android:paddingLeft="10sp"
+        android:maxLines="1"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="你的姓名是:"
+        android:layout_marginBottom="8sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#8a8a8a"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/your_name"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginBottom="20sp"
+        android:hint="请输入你的姓名"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/see_user_small"
+        android:drawablePadding="8dp"
+        android:background="@drawable/border_text"
+        android:paddingLeft="10sp"
+        android:maxLines="1" />
+
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:background="#f3ad02"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8sp"
+        android:text="保        存" />
+</LinearLayout>

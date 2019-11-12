@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15sp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/main_practise"
+        android:layout_width="match_parent"
+        android:layout_height="95sp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingRight="15sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:background="#eaeaea">
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="55sp"
+            android:layout_marginRight="15sp"
+            android:id="@+id/left_text"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="1"
+            android:background="@drawable/shape"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/practise_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:text="第一章 Android基础入门"/>
+            <TextView
+                android:id="@+id/practise_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共五节"
+                android:textSize="15sp"
+                android:textColor="#8a8a8a"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#E3E3E3" />
+
+</LinearLayout>

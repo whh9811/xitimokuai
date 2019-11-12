@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/tool_bar" />
+
+    <TextView
+        android:id="@+id/tv_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="启动服务"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="停止服务"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="绑定服务"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_tie_service"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="解绑服务"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_start_foreservice"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="启动前台服务"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_stop_foreservice"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="停止前台服务"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_intentService"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="启动intentService"
+        android:background="#3DAEFF"
+        android:layout_marginTop="10dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fragment_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="在res/raw目录增加一首歌的mp3文件" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="开始"
+                android:background="#3DAEFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tv_pause"
+                android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="暂停"
+                android:background="#3DAEFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tv_stop"
+                android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="停止"
+                android:background="#3DAEFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

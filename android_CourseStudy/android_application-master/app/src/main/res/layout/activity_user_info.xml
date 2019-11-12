@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UserInfoActivity">
+    <include layout="@layout/tool_bar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="20sp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="头像"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="35sp"/>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/my_picture"
+            android:src="@drawable/picture_f"
+            android:layout_gravity="center"
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="35sp"
+            app:riv_oval="true"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E3E3E3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="20sp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="用户名"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="35sp"/>
+        <TextView
+            android:id="@+id/username_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#8a8a8a"
+            android:layout_marginRight="35sp"
+            android:text="aaa"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E3E3E3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="20sp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="35sp"/>
+
+        <TextView
+            android:id="@+id/nickname_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#8a8a8a"
+            android:layout_marginRight="35sp"
+            android:text="bbb"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E3E3E3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="20sp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/forth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="性别"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="35sp"/>
+
+        <TextView
+            android:id="@+id/sex_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#8a8a8a"
+            android:layout_marginRight="35sp"
+            android:text="男"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E3E3E3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="20sp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/fifth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_signature"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="签名"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="35sp"/>
+
+        <TextView
+            android:id="@+id/signature_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#8a8a8a"
+            android:layout_marginRight="35sp"
+            android:text="aaa"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E3E3E3" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    tools:context=".activity.modify_pwd_Activity">
+    <include layout="@layout/tool_bar"/>
+    
+    <EditText
+        android:id="@+id/input_first_pwd"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:drawableLeft="@drawable/lock_small"
+        android:layout_gravity="center"
+        android:drawablePadding="8dp"
+        android:hint="请输入原始密码"
+        android:layout_marginTop="20sp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:background="@drawable/border_text"
+        android:paddingLeft="10sp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:id="@+id/input_new_pwd"
+        android:hint="请输入新密码"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock_small"
+        android:drawablePadding="8dp"
+        android:background="@drawable/border_text"
+        android:paddingLeft="10sp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:id="@+id/input_new_pwd_again"
+        android:hint="请再次输入密码"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock_small"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/border_text"
+        android:paddingLeft="10sp"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:background="#f3ad02"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8sp"
+        android:text="保        存" />
+
+</LinearLayout>
